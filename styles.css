@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Hover effect */
+a:hover {
+  color: #ff6347; /* Change to desired hover color */
+}
